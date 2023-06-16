@@ -105,7 +105,7 @@ body{ /*changes the font*/
 
 .footer img{
     max-width: 250px;
-    max-height: 100px;
+    max-height: 90px;
 }
 
 .footer ul{
@@ -142,6 +142,11 @@ body{ /*changes the font*/
     transform:scale(1.2);
 }
 
+.form{
+    justify-content: center;
+    align-items: right;
+}
+
 @media(max-width:768px){
     .photos{
         flex-direction: column;
@@ -151,4 +156,3 @@ body{ /*changes the font*/
         max-width: 100%;
     }
 }
-

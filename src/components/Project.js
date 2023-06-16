@@ -4,12 +4,12 @@ import React from 'react';
 // THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
 
 function Project() {  
-    return (
-      <div className='' id='' >
-        <h1>Portfolio</h1>
-        <p>projects</p>
-      </div>
-    );
-  }
+  return (
+    <div className='column block' id='' >
+      <h1>Portfolio</h1>
+      <a href="blank" target="_blank">projects</a>
+    </div>
+  );
+}
   
 export default Project;
