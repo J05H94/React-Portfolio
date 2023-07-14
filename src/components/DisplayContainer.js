@@ -13,7 +13,17 @@ export default function PortfolioContainer() {
       return <Contact />;
     }
     if (currentPage === 'Project') {
-      return <Project />;
+      return (
+        <div>
+          <Project username={`that-devguy`} repo={`Pokedex-Web-Application`}/>,
+          <Project username={`smilillo`} repo={`Pocket-Plant`}/>,
+          <Project username={`Cleegould`} repo={`TheJourney`}/>,
+          <Project username={`J05H94`} repo={`PWA-Challenge`}/>,
+          <Project username={`J05H94`} repo={`socialAPI`}/>,
+          <Project username={`J05H94`} repo={`Employee_Tracker`}/>,
+          <Project username={`J05H94`} repo={`note-taker`}/>,
+        </div>
+      );
     }
     if (currentPage === 'Resume') {
         return <Resume />;
